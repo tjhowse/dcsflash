@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<units>
+	<unit>
+		<NATODesignation>SA-3</NATODesignation>
+		<NATOName>Goa</NATOName>
+		<RussianDesignation>S-125</RussianDesignation>
+		<RussianName>Neva/Pechora</RussianName>
+		<Ranges>
+			<Ceiling>80000</Ceiling>
+			<Paint>15.5</Paint>
+			<Detect>43</Detect>
+			<Hit>15.5</Hit>
+			<Minimum>1</Minimum>
+		</Ranges>
+		<Engagements>
+			<Engagement>Call SEAD.</Engagement>
+			<Engagement>Terrain mask until inside minimum effective range.</Engagement>
+		</Engagements>
+		<Countermeasures>
+			<ECM>SAM1</ECM>
+			<Chaff>10</Chaff>
+			<Flares>0</Flares>
+		</Countermeasures>
+		<Components>
+			<Component>
+				<Description>Acquisition Radar Truck</Description>
+				<Function>Target Acquisition</Function>
+				<Images>
+					<Eyeball>srp-19.png</Eyeball>
+					<TGP>srp-19tgp.png</TGP>
+					<WHOT>srp-19whot.png</WHOT>
+					<BHOT>srp-19bhot.png</BHOT>
+					<RWR>rgr03.png</RWR>
+				</Images>
+				<Designation>SR P-19</Designation>		
+			</Component>
+			<Component>
+				<Description>Quadruple Launcher</Description>
+				<Function>Launcher</Function>
+				<Images>
+					<Eyeball>ln5p73.png</Eyeball>
+					<TGP>ln5p73tgp.png</TGP>
+					<WHOT>ln5p73whot.png</WHOT>
+					<BHOT>ln5p73bhot.png</BHOT>
+					<RWR>rgr03.png</RWR>
+				</Images>
+				<Designation>LN 5P73</Designation>
+			</Component>
+			<Component>
+				<Description>"Low Blow" Painting Radar</Description>
+				<Function>Paint</Function>
+				<Images>
+					<Eyeball>snr125.png</Eyeball>
+					<TGP>snr125tgp.png</TGP>
+					<WHOT>snr125whot.png</WHOT>
+					<BHOT>snr125bhot.png</BHOT>
+					<RWR>rgr03.png</RWR>
+				</Images>
+				<Designation>SNR-125</Designation>
+			</Component>
+		</Components>
+	</unit>
+	
+	<unit>
+		<NATODesignation>SA-9</NATODesignation>
+		<NATOName>Gaskin</NATOName>
+		<RussianDesignation>9P31</RussianDesignation>
+		<RussianName>Strela-1</RussianName>
+		<Ranges>
+			<Ceiling>14000</Ceiling>
+			<Detect>2.6</Detect>
+			<Hit>2.6</Hit>
+			<Minimum>0.5</Minimum>
+		</Ranges>
+		<Engagements>
+			<Engagement>Bomb from above 14000ft.</Engagement>
+			<Engagement>Kill from standoff with AGM-65.</Engagement>
+		</Engagements>
+		<Countermeasures>
+			<ECM>N/A</ECM>
+			<Chaff>0</Chaff>
+			<Flares>10</Flares>
+		</Countermeasures>
+		<Components>
+			<Component>
+				<Description>Gaskin</Description>
+				<Function>Launcher</Function>
+				<Images>
+					<Eyeball>sa-9.png</Eyeball>
+					<TGP>sa-9tgp.png</TGP>
+					<WHOT>sa-9whot.png</WHOT>
+					<BHOT>sa-9bhot.png</BHOT>
+				</Images>
+				<Designation>SR P-19</Designation>		
+			</Component>
+		</Components>
+	</unit>
+</units>
